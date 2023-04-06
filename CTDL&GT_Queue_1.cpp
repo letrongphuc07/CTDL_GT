@@ -15,7 +15,7 @@ bool isFull() {
 }
 void enqueue(int item) {
     if (isFull()) {
-        cout << "Hàng đợi đầy rùi má ơi, không enqueue được nữa đâu!" << endl;
+        cout << "Hàng đợi đầy " << endl;
         return;
     }
     rear++;
@@ -23,7 +23,7 @@ void enqueue(int item) {
 }
 void dequeue() {
     if (isEmpty()) {
-        cout << "Uầy, hàng đợi rỗng má ơi, có gì đâu mà dequeue!" << endl;
+        cout << "hàng đợi rỗng" << endl;
         return;
     }
     queue[front] = 0;
