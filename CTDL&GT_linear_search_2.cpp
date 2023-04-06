@@ -1,4 +1,3 @@
-nguồn tham khảo: https://dnmtechs.com/thuat-toan-tim-kiem-tuyen-tinh-tim-kiem-tuan-tu/
 #include <iostream> 
 using namespace std; 
   
@@ -10,14 +9,13 @@ int search(int arr[], int n, int x)
             return i; 
     return -1; 
 } 
-  
 int main(void) 
 { 
     int arr[] = { 2, 3, 4, 10, 40 }; 
     int x = 10; 
     int n = sizeof(arr) / sizeof(arr[0]); 
     int result = search(arr, n, x); 
-   (result == -1)? cout<<"Element is not present in array" 
-                 : cout<<"Element is present at index " <<result; 
+   (result == -1)? cout<<"khong co" 
+                 : cout<<"vi tri la" <<result; 
    return 0; 
 }
