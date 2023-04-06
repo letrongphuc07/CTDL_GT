@@ -1,4 +1,4 @@
-nguồn tham khảo: https://viblo.asia/p/sap-xep-chen-sap-xep-chon-va-sap-xep-tron-Do754zX4ZM6
+nguồn tham khảo: https://codelearn.io/learning/data-structure-and-algorithms/850321
 void Insertion_sort(int a[], int n) {
 	int index, new_number;
 	for (int i = 1; i < n; i++){
