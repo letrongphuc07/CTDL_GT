@@ -13,6 +13,4 @@ int main() {
   cin>>n;
   kq = fib(n);
   cout<<"\nSố fibonacci ở vị trí "<<n<<" là: "<<kq;
-  cout<<"\n-----------------------------------\n";
-  cout<<"Chương trình này được đăng tại Freetuts.net";
 }
